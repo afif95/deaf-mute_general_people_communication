@@ -1,4 +1,4 @@
-## An Android Communication Platform between Hearing Impaired and General People
+### An Android Communication Platform between Hearing Impaired and General People
 
 - Install Android Studio and open the downloaded or cloned folder.
 
