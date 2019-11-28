@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="8%p"
+>
+    <Row>
+        <Key android:keyLabel="অ" android:keyEdgeFlags="left" android:codes="91" android:keyIcon="@drawable/a"/>
+        <Key android:keyLabel="আ" android:codes="92" android:keyIcon="@drawable/b"/>
+        <Key android:keyLabel="ই" android:codes="93" android:keyIcon="@drawable/c"/>
+        <Key android:keyLabel="ঈ" android:codes="94" android:keyIcon="@drawable/c"/>
+        <Key android:keyLabel="উ" android:codes="95" android:keyIcon="@drawable/d"/>
+        <Key android:keyLabel="ঊ" android:codes="96" android:keyIcon="@drawable/d"/>
+        <Key android:keyLabel="এ" android:codes="97" android:keyIcon="@drawable/f"/>
+        <Key android:keyLabel="ঐ" android:codes="98" android:keyIcon="@drawable/g"/>
+        <Key android:keyLabel="ও" android:codes="99" android:keyIcon="@drawable/h"/>
+        <Key android:keyLabel="ঔ" android:keyEdgeFlags="right" android:codes="100" android:keyIcon="@drawable/i"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="ক" android:keyEdgeFlags="left" android:codes="1" android:keyIcon="@drawable/j"/>
+        <Key android:keyLabel="খ" android:codes="2" android:keyIcon="@drawable/k"/>
+        <Key android:keyLabel="গ" android:codes="3" android:keyIcon="@drawable/l"/>
+        <Key android:keyLabel="ঘ" android:codes="4" android:keyIcon="@drawable/m"/>
+        <Key android:keyLabel="ঙ" android:codes="5" android:keyIcon="@drawable/n"/>
+        <Key android:keyLabel="চ" android:codes="6" android:keyIcon="@drawable/o"/>
+        <Key android:keyLabel="ছ" android:codes="7" android:keyIcon="@drawable/p"/>
+        <Key android:keyLabel="জ" android:codes="8" android:keyIcon="@drawable/q"/>
+        <Key android:keyLabel="ঝ" android:codes="9" android:keyIcon="@drawable/r"/>
+        <Key android:keyLabel="ঞ" android:keyEdgeFlags="right" android:codes="10" android:keyIcon="@drawable/s"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="ট" android:keyEdgeFlags="left" android:codes="11" android:keyIcon="@drawable/t"/>
+        <Key android:keyLabel="ঠ" android:codes="12" android:keyIcon="@drawable/u"/>
+        <Key android:keyLabel="ড" android:codes="13" android:keyIcon="@drawable/v"/>
+        <Key android:keyLabel="ঢ" android:codes="14" android:keyIcon="@drawable/w"/>
+        <Key android:keyLabel="ণ" android:codes="15" android:keyIcon="@drawable/x"/>
+        <Key android:keyLabel="ত" android:codes="16" android:keyIcon="@drawable/y"/>
+        <Key android:keyLabel="থ" android:codes="17" android:keyIcon="@drawable/z"/>
+        <Key android:keyLabel="দ" android:codes="18" android:keyIcon="@drawable/aa"/>
+        <Key android:keyLabel="ধ" android:codes="19" android:keyIcon="@drawable/bb"/>
+        <Key android:keyLabel="ন" android:keyEdgeFlags="right" android:codes="20" android:keyIcon="@drawable/x"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="প" android:keyEdgeFlags="left" android:codes="21" android:keyIcon="@drawable/cc"/>
+        <Key android:keyLabel="ফ" android:codes="22" android:keyIcon="@drawable/dd"/>
+        <Key android:keyLabel="ব" android:codes="23" android:keyIcon="@drawable/ee"/>
+        <Key android:keyLabel="ভ" android:codes="24" android:keyIcon="@drawable/ee"/>
+        <Key android:keyLabel="ম" android:codes="25" android:keyIcon="@drawable/ff"/>
+        <Key android:keyLabel="য" android:codes="26" android:keyIcon="@drawable/q"/>
+        <Key android:keyLabel="র" android:codes="27" android:keyIcon="@drawable/e"/>
+        <Key android:keyLabel="ল" android:codes="28" android:keyIcon="@drawable/gg"/>
+        <Key android:keyLabel="শ" android:codes="29" android:keyIcon="@drawable/hh"/>
+        <Key android:keyLabel="ষ" android:keyEdgeFlags="right" android:codes="30" android:keyIcon="@drawable/hh"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="স" android:keyEdgeFlags="left" android:codes="31" android:keyIcon="@drawable/hh"/>
+        <Key android:keyLabel="হ" android:codes="32" android:keyIcon="@drawable/ii"/>
+        <Key android:keyLabel="ড়" android:codes="33" android:keyIcon="@drawable/e"/>
+        <Key android:keyLabel="ঢ়" android:codes="34" android:keyIcon="@drawable/e"/>
+        <Key android:keyLabel="য়" android:codes="35" android:keyIcon="@drawable/a"/>
+        <Key android:keyLabel="ৎ" android:codes="36" android:keyIcon="@drawable/y"/>
+        <Key android:keyLabel="ং" android:codes="37" android:keyIcon="@drawable/jj"/>
+        <Key android:keyLabel="ঃ" android:codes="38"/>
+        <Key android:keyLabel="ঁ" android:codes="39" android:keyIcon="@drawable/kk"/>
+        <Key android:keyIcon="@drawable/delete_button" android:isRepeatable="true" android:keyEdgeFlags="right" android:codes="-5"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel="," android:keyWidth="10%p" android:keyEdgeFlags="left" android:codes="44"/>
+        <Key android:keyLabel="১২৩?" android:keyWidth="16%p" android:codes="43"/>
+        <Key android:keyLabel="(বাংলা)"  android:keyWidth="16%p" android:isRepeatable="true" android:codes="41"/>
+        <Key android:keyLabel="।"  android:keyWidth="10%p" android:codes="42"/>
+        <Key android:keyLabel="ঋ"  android:keyWidth="10%p" android:codes="101" android:keyIcon="@drawable/e"/>
+        <Key android:keyLabel="্য"  android:keyWidth="10%p" android:codes="102"/>
+        <Key android:keyLabel="যুক্তাক্ষর"  android:keyWidth="18%p" android:codes="103"/>
+        <Key android:keyIcon="@drawable/enter_button"  android:keyWidth="10%p" android:keyEdgeFlags="right" android:codes="-4"/>
+    </Row>
+
+        </Keyboard>

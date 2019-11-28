@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sign language</string>
+    <string name="title_activity_firstactivity">firstactivity</string>
+    <string name="aaa">convert speech to sign language</string>
+    <string name="bbb">launch keyboard</string>
+    <string name="ccc">tap on mic to speak</string>
+    <string name="ddd">watch signs</string>
+    <string name="title_activity_third_activity">third_activity</string>
+    <string name="output_text">output</string>
+    <string name="eee">enable keyboard</string>
+    <string name="fff">select keyboard</string>
+    <string name="description">image</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".content_keyboard_activity"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:inputType="text"
+        android:layout_above="@id/enable_keyboard_id"
+        android:id="@+id/output"
+        android:hint="@string/output_text"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_above="@id/select_keyboard_id"
+        android:id="@+id/enable_keyboard_id"
+        android:text="@string/eee"
+        android:layout_marginTop="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        />
+
+    <Button
+        android:id="@+id/select_keyboard_id"
+        android:text="@string/fff"
+        android:layout_marginTop="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        />
+
+</RelativeLayout>
