@@ -4,18 +4,13 @@
 
 - This app is developed for Bengali language.
 
-![](fig1.png)
-
-![](fig2.png)
-
-![](fig3.png)
-
-![](fig4.png)
-
-![](fig5.png)
-
-![](fig6.png)
-
-![](fig7.png)
-
-![](fig8.png)
+<p align="center">
+<img src="fig1.png" alt="drawing" width="200" height=300 />
+<img src="fig2.png" alt="drawing" width="200" height=300 />
+<img src="fig3.png" alt="drawing" width="200" height=300 />
+<img src="fig4.png" alt="drawing" width="200" height=300 />
+<img src="fig5.png" alt="drawing" width="200" height=300 />
+<img src="fig6.png" alt="drawing" width="200" height=300 />
+<img src="fig7.png" alt="drawing" width="200" height=300 />
+<img src="fig8.png" alt="drawing" width="200" height=300 />
+</p>
